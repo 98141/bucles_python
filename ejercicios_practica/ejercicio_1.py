@@ -12,7 +12,7 @@
 
 # Objetivo:
 # Armar una lista de contenga los temas
-# que ha vistoen este curso.
+# que ha visto en este curso.
 # Podrá armar la lista inicialzandola
 # con los valores solicitados
 # o empezando con una lista vacia y agregar
@@ -32,3 +32,12 @@
 
 
 # Imprimir en pantalla la variable contenidos_curso
+contenidos_curso=[]
+
+contenidos_curso.append("python")
+contenidos_curso.append("variables")
+contenidos_curso.append("condicionales")
+contenidos_curso.append("listas")
+contenidos_curso.append("bucles")
+
+print(contenidos_curso)
